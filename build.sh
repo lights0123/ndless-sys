@@ -7,6 +7,8 @@ bindgen wrapper.h -o src/bindings.rs \
 	--blacklist-item FP_ZERO \
 	--blacklist-item FP_SUBNORMAL \
 	--blacklist-item FP_NORMAL \
+	--blacklist-function abort \
+	--blacklist-function exit \
 	--use-core \
 	-- \
 	-I $(dirname $(which nspire-gcc))/../include

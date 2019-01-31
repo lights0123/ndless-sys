@@ -3135,9 +3135,6 @@ extern "C" {
     pub fn aligned_alloc(__alignment: usize, __size: usize) -> *mut cty::c_void;
 }
 extern "C" {
-    pub fn abort();
-}
-extern "C" {
     pub fn atexit(__func: ::core::option::Option<unsafe extern "C" fn()>) -> cty::c_int;
 }
 extern "C" {
@@ -3150,9 +3147,6 @@ extern "C" {
         >,
         __arg: *mut cty::c_void,
     ) -> cty::c_int;
-}
-extern "C" {
-    pub fn exit(__status: cty::c_int);
 }
 extern "C" {
     pub fn quick_exit(__status: cty::c_int);
