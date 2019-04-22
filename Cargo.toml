@@ -3,9 +3,9 @@ name = "ndless-sys"
 description = "Rust bindings for Ndless for TI Nspire"
 repository = "https://github.com/lights0123/ndless-sys"
 license = "MIT OR Apache-2.0"
-version = "0.1.3"
+version = "0.1.4"
 authors = ["lights0123 <developer@lights0123.com>"]
 edition = "2018"
 
 [dependencies]
-cty = "0.1.5"
+cty = "0.2.0"
